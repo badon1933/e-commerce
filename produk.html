@@ -1,0 +1,977 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+</head>
+
+<body class="bg-light">
+
+  <header class="my-3">
+
+    <!-- Navigation Bar -->
+    <section class="container">
+      <nav class="navbar navbar-expand-lg bg-white rounded-3 shadow sticky-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"><i class="bi bi-shop"></i> Shopaholic</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2 rounded-0" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success rounded-3" type="submit"><i class="bi bi-search"></i></button>
+            </form>
+            <a href="#" class="btn border-0 fs-3 text-success"><i class="bi bi-person-fill"></i></a>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+  </header>
+
+  <main class="my-3">
+
+    <!-- Main Container -->
+    <div class="container">
+
+      <div class="row mb-3">
+
+        <!-- Sisi Kiri -->
+        <aside class="col-lg-4 mb-3 sticky-top">
+
+          <div class="row">
+            <div class="col">
+
+              <!-- Modal Trigger -->
+              <a href="#" data-bs-toggle="modal" data-bs-target="#fotoProdukModal">
+                <!-- Product Image -->
+                <img src="assets/img/product-1.jpg" alt="product-1" class="img-fluid rounded-3 shadow">
+              </a>
+
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+
+              <!-- Product Images Carousel -->
+              <div id="carouselProdukTerlaris" class="carousel slide" data-bs-ride="false">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="row">
+
+                      <div class="col-lg-3 my-3">
+                        <div class="card rounded-3 shadow border-0">
+                          <a href="#">
+                            <img src="assets/img/product-1.jpg" class="card-img" alt="product-1">
+                          </a>
+                        </div>
+                      </div>
+
+                      <div class="col-lg-3 my-3">
+                        <div class="card rounded-3 shadow border-0">
+                          <a href="#">
+                            <img src="assets/img/product-2.jpg" class="card-img" alt="product-">
+                          </a>
+                        </div>
+                      </div>
+
+                      <div class="col-lg-3 my-3">
+                        <div class="card rounded-3 shadow border-0">
+                          <a href="#">
+                            <img src="assets/img/product-3.jpg" class="card-img" alt="product-3">
+                          </a>
+                        </div>
+                      </div>
+
+                      <div class="col-lg-3 my-3">
+                        <div class="card rounded-3 shadow border-0">
+                          <a href="#">
+                            <img src="assets/img/product-4.jpg" class="card-img" alt="product-4">
+                          </a>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+
+                  <div class="carousel-item">
+                    <div class="row">
+
+                      <div class="col-lg-3 my-3">
+                        <div class="card rounded-3 shadow border-0">
+                          <a href="#">
+                            <img src="assets/img/product-1.jpg" class="card-img" alt="product-1">
+                          </a>
+                        </div>
+                      </div>
+
+                      <div class="col-lg-3 my-3">
+                        <div class="card rounded-3 shadow border-0">
+                          <a href="#">
+                            <img src="assets/img/product-2.jpg" class="card-img" alt="product-2">
+                          </a>
+                        </div>
+                      </div>
+
+                      <div class="col-lg-3 my-3">
+                        <div class="card rounded-3 shadow border-0">
+                          <a href="#">
+                            <img src="assets/img/product-3.jpg" class="card-img" alt="product-3">
+                          </a>
+                        </div>
+                      </div>
+
+                      <div class="col-lg-3 my-3">
+                        <div class="card rounded-3 shadow border-0">
+                          <a href="#">
+                            <img src="assets/img/product-4.jpg" class="card-img" alt="product-4">
+                          </a>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselProdukTerlaris"
+                  data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselProdukTerlaris"
+                  data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+
+            </div>
+          </div>
+
+        </aside>
+
+        <!-- Sisi Kanan -->
+        <section class="col-lg-8">
+
+          <!-- Product Head -->
+          <section class="row mb-3">
+            <div class="col-lg">
+              <div class="card border-0 shadow">
+                <div class="card-body p-1">
+
+                  <div class="row">
+
+                    <!-- Judul Produk -->
+                    <div class="col my-2">
+                      <div class="d-flex justify-content-start mx-3">
+                        <h5 class="mb-0">Lorem ipsum dolor sit, amet consectetur adipisicing.</h5>
+                      </div>
+                    </div>
+
+                  </div>
+
+                  <div class="row">
+
+                    <!-- Rating -->
+                    <div class="col-3 my-2">
+                      <div class="d-flex justify-content-start mx-3">
+                        <h6 class="mb-0"><i class="bi bi-star-fill text-warning"></i> 4.8</h6>
+                        <span class="small ms-1">(230 ulasan)</span>
+                      </div>
+                    </div>
+
+                    <!-- Penjualan -->
+                    <div class="col-3 my-2">
+                      <div class="d-flex justify-content-start mx-3">
+                        <h6 class="mb-0">Terjual 750+</h6>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Product Body -->
+          <section class="row">
+            <div class="col-lg">
+              <div class="card border-0 shadow">
+                <div class="card-body p-1">
+
+                  <div class="row">
+
+                    <!-- Judul Produk -->
+                    <div class="col my-2 mt-0">
+                      <div class="alert alert-success shadow-sm" role="alert">
+                        <h4 class="mb-0 text-success">Rp.50.000</h4>
+                        <span class="badge bg-success mx-1 rounded-0">20%</span>
+                        <del class="small">Rp.75.000</del>
+                      </div>
+                    </div>
+
+                  </div>
+
+                  <div class="row">
+
+                    <div class="col my-2">
+
+                      <!-- Pengiriman -->
+                      <div class="row mx-3 mb-2 align-items-center">
+                        <div class="col-3 px-0">
+                          <h6 class="mb-0">Pengiriman</h6>
+                        </div>
+                        <div class="col px-1">
+                          <select class="form-select rounded-0" aria-label="Default select example">
+                            <option selected>Provinsi</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                          </select>
+                        </div>
+                        <div class="col px-1">
+                          <select class="form-select rounded-0" aria-label="Default select example">
+                            <option selected>Kabupaten/Kota</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                          </select>
+                        </div>
+                        <div class="col px-1">
+                          <select class="form-select rounded-0" aria-label="Default select example">
+                            <option selected>Kecamatan</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                          </select>
+                        </div>
+                      </div>
+
+                      <!-- Varian 1 -->
+                      <div class="row mx-3 mb-2 align-items-center">
+                        <div class="col-3 px-0">
+                          <h6 class="mb-0">Warna</h6>
+                        </div>
+                        <div class="col-4 px-1">
+                          <select class="form-select rounded-0" aria-label="Default select example">
+                            <option selected>Pilih Warna</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                          </select>
+                        </div>
+                      </div>
+
+                      <!-- Varian 2 -->
+                      <div class="row mx-3 mb-2 align-items-center">
+                        <div class="col-3 px-0">
+                          <h6 class="mb-0">Ukuran</h6>
+                        </div>
+                        <div class="col-4 px-1">
+                          <select class="form-select rounded-0" aria-label="Default select example">
+                            <option selected>Pilih Ukuran</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                          </select>
+                        </div>
+                      </div>
+
+                      <!-- Jumlah -->
+                      <div class="row mx-3 mb-2 align-items-center">
+                        <div class="col-3 px-0">
+                          <h6 class="mb-0">Jumlah</h6>
+                        </div>
+                        <div class="col-3 px-1">
+                          <div class="input-group">
+                            <button class="btn btn-outline-success rounded-0" type="button" id="button-addon1"><i
+                                class="bi bi-dash-lg"></i></button>
+                            <input type="number" class="form-control rounded-0" placeholder=""
+                              aria-label="Example text with button addon" aria-describedby="button-addon1" value="1">
+                            <button class="btn btn-outline-success rounded-0" type="button" id="button-addon2"><i
+                                class="bi bi-plus-lg"></i></button>
+                          </div>
+                        </div>
+                      </div>
+
+                      <!-- Pembelian -->
+                      <div class="row mx-3 mb-2 align-items-center justify-content-center my-3">
+                        <div class="col-3 px-1 text-center">
+                          <div class="d-grid gap-2">
+                            <button class="btn btn-outline-success rounded-0" type="button" id="button-addon1"><i
+                                class="bi bi-cart"></i> Keranjang</button>
+                          </div>
+                        </div>
+                        <div class="col-3 px-1 text-center">
+                          <div class="d-grid gap-2">
+                            <button class="btn btn-success rounded-0" type="button" id="button-addon1"> Beli
+                              Sekarang</button>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </section>
+
+        </section>
+
+      </div>
+
+      <!-- Info Produk Card -->
+      <div class="row mb-3">
+        <section class="col-lg">
+          <div class="card border-0 shadow">
+            <div class="card-body">
+
+              <!-- Info Produk Header -->
+              <div class="row">
+                <div class="col-lg">
+                  <div class="alert alert-success" role="alert">
+                    <h5 class="text-success mb-0">Info Produk</h5>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Info Produk -->
+              <div class="row">
+                <div class="col-lg">
+
+                  <!-- Produk Tab -->
+                  <ul class="nav nav-tabs" id="myTab" role="tablist">
+
+                    <!-- Spesifikasi Produk Tab -->
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link active" id="spesifikasi-tab" data-bs-toggle="tab"
+                        data-bs-target="#spesifikasi-tab-pane" type="button" role="tab"
+                        aria-controls="spesifikasi-tab-pane" aria-selected="true">Spesifikasi</button>
+                    </li>
+
+                    <!-- Deskripsi Produk Tab -->
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link" id="deskripsi-tab" data-bs-toggle="tab"
+                        data-bs-target="#deskripsi-tab-pane" type="button" role="tab" aria-controls="deskripsi-tab-pane"
+                        aria-selected="false">Deskripsi</button>
+                    </li>
+
+                  </ul>
+
+                  <!-- Produk Tab Content -->
+                  <div class="tab-content" id="myTabContent">
+
+                    <!-- Spesifikasi Produk -->
+                    <div class="tab-pane fade show active" id="spesifikasi-tab-pane" role="tabpanel"
+                      aria-labelledby="spesifikasi-tab" tabindex="0">
+
+                      <div class="row">
+                        <div class="col-lg">
+                          <div class="alert alert-white mb-0" role="alert">
+
+                            <!-- Spesifikasi 1 -->
+                            <div class="row">
+                              <div class="col-lg-2">
+                                <span class="text-secondary">Stok</span>
+                              </div>
+                              <div class="col-lg">
+                                <span>123</span>
+                              </div>
+                            </div>
+
+                            <!-- Spesifikasi 2 -->
+                            <div class="row">
+                              <div class="col-lg-2">
+                                <span class="text-secondary">Dikirim dari</span>
+                              </div>
+                              <div class="col-lg">
+                                <span>Purwakarta</span>
+                              </div>
+                            </div>
+
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+
+                    <!-- Deskripsi Produk -->
+                    <div class="tab-pane fade" id="deskripsi-tab-pane" role="tabpanel" aria-labelledby="deskripsi-tab"
+                      tabindex="0">
+
+                      <div class="row">
+                        <div class="col-lg">
+                          <div class="alert alert-white mb-0" role="alert">
+
+                            <h6>Mohon Cek Deskripsi</h6>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo atque quam aspernatur
+                              doloribus, ad consectetur facere fuga voluptas, tempore suscipit distinctio ducimus id
+                              omnis accusamus obcaecati harum tenetur iusto optio?</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, eius accusantium ab
+                              ratione neque labore, dolores, totam fuga quaerat illum est repellat minus! Iure nihil
+                              nisi repellendus in quos eius?</p>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis tenetur deserunt
+                              voluptatum assumenda eveniet nam earum magnam repellendus porro! Maiores sint eveniet
+                              corrupti expedita suscipit. Porro recusandae, voluptate dignissimos veniam eius ab illum
+                              nihil tempora similique iure quasi reiciendis qui eos odit tempore in totam molestiae!
+                              Libero laboriosam dolorum facere.</p>
+
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </section>
+      </div>
+
+      <!-- Ulasan Card -->
+      <div class="row">
+        <section class="class col-lg">
+          <div class="card border-0 shadow">
+            <div class="card-body">
+
+              <!-- Ulasan Header -->
+              <div class="row">
+                <div class="col-lg">
+                  <div class="alert alert-success mb-0" role="alert">
+                    <h5 class="text-success mb-0">Ulasan Pembeli</h5>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Ulasan Section -->
+              <div class="row">
+                <div class="col-lg">
+                  <div class="alert alert-white mb-0 pb-0" role="alert">
+                    <div class="row">
+
+                      <!-- Rating Score -->
+                      <div class="col-lg-3 text-center">
+                        <span class="fs-1"> 4.5<span class="fs-6 text-secondary">/5.0</span></span>
+
+                        <!-- 5 Stars -->
+                        <div class="row">
+                          <div class="col-lg-2 pe-0">
+                            <span class="small">5 <i class="bi bi-star-fill text-warning"></i></span>
+                          </div>
+                          <div class="col-lg ps-0">
+                            <div class="progress my-2">
+                              <div class="progress-bar bg-success" role="progressbar" aria-label="Basic example"
+                                style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <!-- 4 Stars -->
+                        <div class="row">
+                          <div class="col-lg-2 pe-0">
+                            <span class="small">4 <i class="bi bi-star-fill text-warning"></i></span>
+                          </div>
+                          <div class="col-lg ps-0">
+                            <div class="progress my-2">
+                              <div class="progress-bar bg-success" role="progressbar" aria-label="Basic example"
+                                style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <!-- 3 Stars -->
+                        <div class="row">
+                          <div class="col-lg-2 pe-0">
+                            <span class="small">3 <i class="bi bi-star-fill text-warning"></i></span>
+                          </div>
+                          <div class="col-lg ps-0">
+                            <div class="progress my-2">
+                              <div class="progress-bar bg-success" role="progressbar" aria-label="Basic example"
+                                style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <!-- 2 Stars -->
+                        <div class="row">
+                          <div class="col-lg-2 pe-0">
+                            <span class="small">2 <i class="bi bi-star-fill text-warning"></i></span>
+                          </div>
+                          <div class="col-lg ps-0">
+                            <div class="progress my-2">
+                              <div class="progress-bar bg-success" role="progressbar" aria-label="Basic example"
+                                style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <!-- 1 Star -->
+                        <div class="row">
+                          <div class="col-lg-2 pe-0">
+                            <span class="small">1 <i class="bi bi-star-fill text-warning"></i></span>
+                          </div>
+                          <div class="col-lg ps-0">
+                            <div class="progress my-2">
+                              <div class="progress-bar bg-success" role="progressbar" aria-label="Basic example"
+                                style="width: 0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+
+                      <!-- Rating Filter & Ulasan -->
+                      <div class="col-lg">
+
+                        <!-- Rating Filter -->
+                        <div class="row align-items-center mb-3">
+
+                          <div class="col-lg px-1">
+                            <button class="btn btn-outline-success rounded-0 active" style="width: 100%;">Semua
+                              Ulasan</button>
+                          </div>
+                          <div class="col-lg px-1">
+                            <button class="btn btn-outline-success rounded-0" style="width: 100%;">5 <i
+                                class="bi bi-star-fill text-warning"></i></button>
+                          </div>
+                          <div class="col-lg px-1">
+                            <button class="btn btn-outline-success rounded-0" style="width: 100%;">4 <i
+                                class="bi bi-star-fill text-warning"></i></button>
+                          </div>
+                          <div class="col-lg px-1">
+                            <button class="btn btn-outline-success rounded-0" style="width: 100%;">3 <i
+                                class="bi bi-star-fill text-warning"></i></button>
+                          </div>
+                          <div class="col-lg px-1">
+                            <button class="btn btn-outline-success rounded-0" style="width: 100%;">2 <i
+                                class="bi bi-star-fill text-warning"></i></button>
+                          </div>
+                          <div class="col-lg px-1">
+                            <button class="btn btn-outline-success rounded-0" style="width: 100%;">1 <i
+                                class="bi bi-star-fill text-warning"></i></button>
+                          </div>
+
+                        </div>
+
+                        <!-- Ulasan -->
+                        <div class="row border-bottom mb-2">
+
+                          <!-- Sisi Kiri -->
+                          <div class="col-lg-10">
+
+                            <!-- User Info -->
+                            <div class="row align-items-center my-1">
+                              <div class="col-lg-1">
+                                <img src="assets/img/user.jpg" class="img-fluid rounded-3" alt="user">
+                              </div>
+                              <div class="col-lg">
+                                <h6 class="mb-0">Badon1933</h6>
+                              </div>
+                            </div>
+
+                            <!-- User Rating -->
+                            <div class="row align-items-center">
+                              <div class="col-lg-2 my-1 pe-0">
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                              </div>
+                              <div class="col-lg">
+                                <span class="small text-secondary">Varian: XL, Hitam</span>
+                              </div>
+                            </div>
+
+                          </div>
+
+                          <!-- Sisi Kanan -->
+                          <div class="col-lg-2">
+                            <div class="row align-items-center text-end" style="height: 100%;">
+
+                              <!-- Tanggal -->
+                              <div class="col-lg">
+                                <span class="small text-secondary">28 Juni 2022</span>
+                              </div>
+
+                              <!-- Dropdown -->
+                              <div class=" col-lg-1">
+                                <a href="#" data-bs-toggle="dropdown" aria-expanded="false">
+                                  <i class="bi bi-three-dots-vertical"></i>
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-end">
+                                  <li><button class="dropdown-item" type="button">Action</button></li>
+                                  <li><button class="dropdown-item" type="button">Another action</button></li>
+                                  <li><button class="dropdown-item" type="button">Something else here</button></li>
+                                </ul>
+                              </div>
+
+                            </div>
+                          </div>
+
+                          <!-- Isi Ulasan -->
+                          <div class="col-lg-12">
+                            <div class="row">
+                              <div class="col-lg">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis dignissimos harum
+                                  nostrum, porro quas sunt quisquam itaque, error ratione quos consequatur totam
+                                  corporis optio ipsum maxime officiis. Distinctio, corporis quidem!</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, accusantium labore
+                                  delectus, alias possimus reprehenderit corrupti laborum ab ea accusamus, et animi
+                                  tempora.</p>
+                              </div>
+                            </div>
+                          </div>
+
+                          <!-- Gambar -->
+                          <div class="col-lg-12 mb-3">
+                            <div class="row">
+                              <div class="col-lg-2">
+                                <a href="#" data-bs-toggle="modal" data-bs-target="#fotoUlasanModal">
+                                  <img src="assets/img/product-1.jpg" class="img-fluid rounded-3" alt="product-1">
+                                </a>
+                              </div>
+                              <div class="col-lg-2">
+                                <a href="#" data-bs-toggle="modal" data-bs-target="#fotoUlasanModal">
+                                  <img src="assets/img/product-2.jpg" class="img-fluid rounded-3" alt="product-2">
+                                </a>
+                              </div>
+                              <div class="col-lg-2">
+                                <a href="#" data-bs-toggle="modal" data-bs-target="#fotoUlasanModal">
+                                  <img src="assets/img/product-3.jpg" class="img-fluid rounded-3" alt="product-3">
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+
+                        </div>
+
+                        <!-- Pagination -->
+                        <div class="row mt-3">
+                          <div class="col-lg text-end">
+                            <div class="btn-group me-2" role="group" aria-label="First group">
+                              <a href="#" class="btn bg-white"><i class="bi bi-chevron-left"></i></a>
+                              <a href="#"
+                                class="btn btn-dark active bg-success border border-success text-white pe-none">1</a>
+                              <a href="#" class="btn bg-white">2</a>
+                              <a href="#" class="btn bg-white">3</a>
+                              <a href="#" class="btn bg-white"><i class="bi bi-chevron-right"></i></a>
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </section>
+      </div>
+
+    </div>
+
+    <!-- Modal Foto Produk -->
+    <div class="modal fade" id="fotoProdukModal" tabindex="-1" aria-labelledby="fotoProdukModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-body">
+            <div class="row">
+
+              <!-- Sisi Kiri -->
+              <div class="col-lg-7">
+                <img src="assets/img/product-1.jpg" class="img-fluid" alt="product-1">
+              </div>
+
+              <!-- Sisi Kanan -->
+              <div class="col-lg-5">
+
+                <!-- Nama Produk -->
+                <div class="row align-items-center">
+                  <div class="col-lg">
+                    <h5 class="modal-title" id="fotoProdukModalLabel">Lorem ipsum dolor sit, amet consectetur
+                      adipisicing
+                      elit.</h5>
+                  </div>
+                </div>
+
+                <!-- Gambar Produk -->
+                <div class="row">
+                  <div class="col-lg-4 mt-3">
+                    <a href="#">
+                      <img src="assets/img/product-1.jpg" class="img-fluid" alt="product-1">
+                    </a>
+                  </div>
+                  <div class="col-lg-4 mt-3">
+                    <a href="#">
+                      <img src="assets/img/product-1.jpg" class="img-fluid" alt="product-1">
+                    </a>
+                  </div>
+                  <div class="col-lg-4 mt-3">
+                    <a href="#">
+                      <img src="assets/img/product-1.jpg" class="img-fluid" alt="product-1">
+                    </a>
+                  </div>
+                  <div class="col-lg-4 mt-3">
+                    <a href="#">
+                      <img src="assets/img/product-1.jpg" class="img-fluid" alt="product-1">
+                    </a>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Foto Ulasan -->
+    <div class="modal fade" id="fotoUlasanModal" tabindex="-1" aria-labelledby="fotoUlasanModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-body">
+            <div class="row">
+
+              <!-- Sisi Kiri -->
+              <div class="col-lg-7">
+                <img src="assets/img/product-1.jpg" class="img-fluid" alt="product-1">
+              </div>
+
+              <!-- Sisi Kanan -->
+              <div class="col-lg-5">
+
+                <!-- Nama Produk -->
+                <div class="row align-items-center">
+                  <div class="col-lg">
+                    <h5 class="modal-title" id="fotoUlasanModalLabel">Lorem ipsum dolor sit, amet consectetur
+                      adipisicing
+                      elit.</h5>
+                  </div>
+                </div>
+
+                <!-- Gambar Produk -->
+                <div class="row">
+                  <div class="col-lg-4 mt-3">
+                    <a href="#">
+                      <img src="assets/img/product-1.jpg" class="img-fluid" alt="product-1">
+                    </a>
+                  </div>
+                  <div class="col-lg-4 mt-3">
+                    <a href="#">
+                      <img src="assets/img/product-2.jpg" class="img-fluid" alt="product-2">
+                    </a>
+                  </div>
+                  <div class="col-lg-4 mt-3">
+                    <a href="#">
+                      <img src="assets/img/product-3.jpg" class="img-fluid" alt="product-3">
+                    </a>
+                  </div>
+                  <div class="col-lg-4 mt-3">
+                    <a href="#">
+                      <img src="assets/img/product-4.jpg" class="img-fluid" alt="product-4">
+                    </a>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <footer class=" mt-3 bg-dark text-light">
+    <section id="footer">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-4 my-3">
+            <h1>BRAND</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor iure, porro modi
+              nemo ipsum sequi quasi
+              nihil harum impedit nam ipsa enim iusto vel nobis. Reiciendis dolorum dignissimos
+              similique qui.</p>
+          </div>
+          <div class="col-3 my-3 text-center">
+            <h6>METODE PEMBAYARAN</h3>
+              <div class="row align-items-center mt-3">
+                <div class="col-4">
+                  <img src="https://itemku-assets.s3-ap-southeast-1.amazonaws.com/logo/payment/linkaja-sm.png"
+                    loading="lazy" class="h-6 inline-block mx-2 flex-none my-1" width="50">
+                </div>
+                <div class="col-4">
+                  <img src="https://itemku-assets.s3-ap-southeast-1.amazonaws.com/logo/payment/alfamidi.png"
+                    loading="lazy" class="h-6 inline-block mx-2 flex-none my-1" width="50">
+                </div>
+                <div class="col-4">
+                  <img src="https://itemku-assets.s3-ap-southeast-1.amazonaws.com/logo/payment/alfamart.png"
+                    loading="lazy" class="h-6 inline-block mx-2 flex-none my-1" width="50">
+                </div>
+                <div class="col-4">
+                  <img src="https://itemku-assets.s3-ap-southeast-1.amazonaws.com/logo/payment/indomaret.png"
+                    loading="lazy" class="h-6 inline-block mx-2 flex-none my-1" width="50">
+                </div>
+                <div class="col-4">
+                  <img src="https://itemku-assets.s3-ap-southeast-1.amazonaws.com/logo/payment/lainnya.png"
+                    loading="lazy" class="h-6 inline-block mx-2 flex-none my-1" width="50">
+                </div>
+                <div class="col-4">
+                  <img src="https://itemku-assets.s3-ap-southeast-1.amazonaws.com/logo/payment/bri.png" loading="lazy"
+                    class="h-6 inline-block mx-2 flex-none my-1" width="50">
+                </div>
+                <div class="col-4">
+                  <img src="https://itemku-assets.s3-ap-southeast-1.amazonaws.com/logo/payment/maybank.png"
+                    loading="lazy" class="h-6 inline-block mx-2 flex-none my-1" width="50">
+                </div>
+                <div class="col-4">
+                  <img src="https://itemku-assets.s3-ap-southeast-1.amazonaws.com/logo/payment/bni.png" loading="lazy"
+                    class="h-6 inline-block mx-2 flex-none my-1" width="50">
+                </div>
+                <div class="col-4">
+                  <img src="https://itemku-assets.s3-ap-southeast-1.amazonaws.com/logo/payment/mandiri.png"
+                    loading="lazy" class="h-6 inline-block mx-2 flex-none my-1" width="50">
+                </div>
+                <div class="col-4">
+                  <img src="https://itemku-assets.s3-ap-southeast-1.amazonaws.com/logo/payment/bca.png" loading="lazy"
+                    class="h-6 inline-block mx-2 flex-none my-1" width="50">
+                </div>
+                <div class="col-4">
+                  <img src="https://itemku-assets.s3-ap-southeast-1.amazonaws.com/logo/payment/qris.png" loading="lazy"
+                    class="h-6 inline-block mx-2 flex-none my-1" width="50">
+                </div>
+                <div class="col-4">
+                  <img src="https://itemku-assets.s3-ap-southeast-1.amazonaws.com/logo/payment/gopay.png" loading="lazy"
+                    class="h-6 inline-block mx-2 flex-none my-1" width="50">
+                </div>
+                <div class="col-4">
+                  <img src="https://itemku-assets.s3-ap-southeast-1.amazonaws.com/logo/payment/dana.png" loading="lazy"
+                    class="h-6 inline-block mx-2 flex-none my-1" width="50">
+                </div>
+                <div class="col-4">
+                  <img src="https://itemku-assets.s3-ap-southeast-1.amazonaws.com/logo/payment/ovo.png" loading="lazy"
+                    class="h-6 inline-block mx-2 flex-none my-1" width="50">
+                </div>
+              </div>
+          </div>
+          <div class="col-3 my-3 text-center">
+            <h6>JASA PENGIRIMAN</h3>
+              <div class="row align-items-center mt-3">
+                <div class="col-4">
+                  <img src="https://itemku-assets.s3-ap-southeast-1.amazonaws.com/logo/payment/linkaja-sm.png"
+                    loading="lazy" class="h-6 inline-block mx-2 flex-none my-1" width="50">
+                </div>
+                <div class="col-4">
+                  <img src="https://itemku-assets.s3-ap-southeast-1.amazonaws.com/logo/payment/alfamidi.png"
+                    loading="lazy" class="h-6 inline-block mx-2 flex-none my-1" width="50">
+                </div>
+                <div class="col-4">
+                  <img src="https://itemku-assets.s3-ap-southeast-1.amazonaws.com/logo/payment/alfamart.png"
+                    loading="lazy" class="h-6 inline-block mx-2 flex-none my-1" width="50">
+                </div>
+                <div class="col-4">
+                  <img src="https://itemku-assets.s3-ap-southeast-1.amazonaws.com/logo/payment/indomaret.png"
+                    loading="lazy" class="h-6 inline-block mx-2 flex-none my-1" width="50">
+                </div>
+                <div class="col-4">
+                  <img src="https://itemku-assets.s3-ap-southeast-1.amazonaws.com/logo/payment/lainnya.png"
+                    loading="lazy" class="h-6 inline-block mx-2 flex-none my-1" width="50">
+                </div>
+                <div class="col-4">
+                  <img src="https://itemku-assets.s3-ap-southeast-1.amazonaws.com/logo/payment/bri.png" loading="lazy"
+                    class="h-6 inline-block mx-2 flex-none my-1" width="50">
+                </div>
+                <div class="col-4">
+                  <img src="https://itemku-assets.s3-ap-southeast-1.amazonaws.com/logo/payment/maybank.png"
+                    loading="lazy" class="h-6 inline-block mx-2 flex-none my-1" width="50">
+                </div>
+                <div class="col-4">
+                  <img src="https://itemku-assets.s3-ap-southeast-1.amazonaws.com/logo/payment/bni.png" loading="lazy"
+                    class="h-6 inline-block mx-2 flex-none my-1" width="50">
+                </div>
+                <div class="col-4">
+                  <img src="https://itemku-assets.s3-ap-southeast-1.amazonaws.com/logo/payment/mandiri.png"
+                    loading="lazy" class="h-6 inline-block mx-2 flex-none my-1" width="50">
+                </div>
+                <div class="col-4">
+                  <img src="https://itemku-assets.s3-ap-southeast-1.amazonaws.com/logo/payment/bca.png" loading="lazy"
+                    class="h-6 inline-block mx-2 flex-none my-1" width="50">
+                </div>
+                <div class="col-4">
+                  <img src="https://itemku-assets.s3-ap-southeast-1.amazonaws.com/logo/payment/qris.png" loading="lazy"
+                    class="h-6 inline-block mx-2 flex-none my-1" width="50">
+                </div>
+                <div class="col-4">
+                  <img src="https://itemku-assets.s3-ap-southeast-1.amazonaws.com/logo/payment/gopay.png" loading="lazy"
+                    class="h-6 inline-block mx-2 flex-none my-1" width="50">
+                </div>
+                <div class="col-4">
+                  <img src="https://itemku-assets.s3-ap-southeast-1.amazonaws.com/logo/payment/dana.png" loading="lazy"
+                    class="h-6 inline-block mx-2 flex-none my-1" width="50">
+                </div>
+                <div class="col-4">
+                  <img src="https://itemku-assets.s3-ap-southeast-1.amazonaws.com/logo/payment/ovo.png" loading="lazy"
+                    class="h-6 inline-block mx-2 flex-none my-1" width="50">
+                </div>
+              </div>
+          </div>
+          <div class="col-2 my-3 text-center">
+            <h6>KONTAK KAMI</h6>
+          </div>
+        </div>
+      </div>
+    </section>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
